@@ -1,0 +1,362 @@
+nav{
+    width: 1535px;
+    height:350px;
+    background:url(../img/original.jpg) no-repeat center top;
+    margin: 0 auto;
+}
+nav ul{
+    width: 400px;
+    height: 300px;
+    float: right;
+    margin-right: 100px;
+    margin-top: 40px;
+    animation:  huanz 3s linear forwards;
+}
+nav ul li{
+    padding-top: 20px;
+    font-size: 20px;
+    color: white;
+}
+nav ul li:nth-of-type(1){
+    font-size: 30px;
+} 
+nav ul li:nth-of-type(2) span{
+    background-color: #f8d198;
+    margin-left: 10px;
+    font-size: 12px;
+    padding: 5px 5px;
+}
+nav ul li:nth-of-type(3){
+    font-size: 16px;
+} 
+nav ul li:nth-of-type(3) span{
+    color: rgb(236, 10, 21);
+} 
+nav ul li:nth-of-type(4) button{
+    width: 200px;
+    height: 40px;
+    background-color: #fe5341;
+    color: white;
+    border: none;
+}
+@keyframes huanz{
+    0%{
+       transform: translateX(80px) translateY(-100px);
+    }
+    50%{
+        transform: translateX(60px) translateY(-20px) ;
+    }
+    100%{
+        transform: translateX(0px) translateY(0px) ;
+    }
+}
+/* 内容 */
+/* 热门滚动条 */
+article{
+    width: 1200px;
+    /* height: 1380px; */
+    margin: 0px auto;
+    /* background-color: #72b973; */
+}
+.rez{
+    margin-left: 40px;
+    position: relative;
+}
+.zouzhuanz{
+   position: absolute;
+   top: 130px;
+   left: -40px;
+}
+.youzhuanz{
+    position: absolute;
+    top: 130px;
+    left: 1120px;
+ }
+.rez h1{
+    font-size: 28px;
+    color: rgb(49, 48, 48);
+    margin-left: 25px;
+    font-weight: 500;
+}
+#liszz{
+    width: 5264px;
+    height: 310px;
+    
+      
+}
+.mlistzzz{
+    width: 1120px;
+    overflow: hidden;   
+}
+#listzz{
+    margin-left: 120px;
+    background-size: 100%;
+    border-radius: 8px;
+    position: relative;
+    width: 250px;
+    height: 320px;
+    margin-left: 25px;
+    margin-top: 20px;
+    float: left;
+    border:1px solid #e6e9e9;
+}
+.immgzz img{
+    width: 250px;
+    height: 150px;
+    border-radius: 8px;
+    position: absolute;
+    z-index: -5;
+
+}
+.shoufaz{
+    height: 25px;
+    background: #f5573c;
+    line-height: 25px;
+    padding:2px 8px;
+    border-radius: 0px 8px;
+    color: white;
+    float: right;
+    z-index: 2;
+}
+.jiagetaiz .zhuanxzz{
+    border: 1px solid #82c26b;
+}
+.jianjiez{
+    padding-top: 150px;
+    padding-left: 18px;
+    font-size: 16px;
+    font-weight: 300;
+    text-align: center;
+    color: #444;
+    margin-top: 10px;
+}
+.jiagetaiz a{
+    width: 40px;
+    height: 25px;
+    color: red;
+    border: 1px solid red;
+    line-height: 25px;
+    padding-left: 5px;
+    border-radius: 5px;
+    margin-left: 20px;
+
+}
+
+.jiagetaiz{
+    margin-top: 10px;
+    margin-left: 50px;
+}
+.shenqingz span{
+    color: red;
+}
+.shenqingz{
+    font-size: 18px;
+    margin-left: 80px;
+    margin-top: 10px;
+}
+.shengyuz a{
+    font-size: 18px;
+    color: red;
+} 
+.shengyuz{
+    margin-left: 70px;
+    margin-top: 5px;
+}
+
+
+/* 报告精选 */
+.bao{
+    margin-left: 10px;
+    margin-top: 60px;
+    background-color: #ffffff;
+}
+.bao h1 a{
+    font-size: 18px;
+    color: red;
+    padding-left: 800px;
+    line-height: 40px;
+}
+.bao h1{
+    height: 60px;
+    font-size: 28px;
+    color: rgb(49, 48, 48);
+    margin-left: 25px;
+    font-weight: 500;
+}
+#bgjingxzz{
+    margin-left: 120px;
+    background-size: 100%;
+    border-radius: 8px;
+    width: 250px;
+    height: 280px;
+    margin-left: 25px;
+    margin-top: 20px;
+    float: left;
+    border:1px solid #e6e9e9;
+    position: relative;
+}
+.mbgjingxzz img{
+    width: 100%;
+    height: 160px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+.mzbgjingxzz{
+    height: 40px;
+    font-size: 16px;
+    margin-left: 10px;
+    margin-top: 15px;
+   
+}
+
+.mgjingxzz span{
+    color: #666;
+    font-style: 14px;
+}
+.mgjingxzz p{
+    float: right;
+}
+
+.mgjingxzz{
+   margin-top: 20px;
+}
+#mbgjxzz{
+   height: 610px;
+   overflow: hidden;
+}
+/* 导购精选 */
+.dao{
+    margin-left: 10px;
+    margin-top: 60px;
+    /* background-color: #ffffff; */
+}
+.dao h1 a{
+    font-size: 18px;
+    color: red;
+    padding-left: 800px;
+    line-height: 40px;
+}
+.dao h1{
+    height: 60px;
+    font-size: 28px;
+    color: rgb(49, 48, 48);
+    margin-left: 25px;
+    font-weight: 500;
+}
+#dgjingxzz{
+    margin-left: 120px;
+    background-size: 100%;
+    border-radius: 8px;
+    width: 250px;
+    height: 280px;
+    margin-left: 25px;
+    margin-top: 20px;
+    float: left;
+    border:1px solid #e6e9e9;
+    position: relative;
+}
+.mdgjingxzz img{
+    width: 100%;
+    height: 160px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+.mzdgjingxzz{
+    height: 50px;
+    font-size: 16px;
+    margin-left: 10px;
+    margin-top: 15px;
+   
+}
+.mgddjingxzz span{
+    color: #666;
+    font-style: 14px;
+}
+.mgddjingxzz a{
+   float:right;
+}
+.mgddjingxzz{
+   margin-top: 20px;
+}
+#mdgjxzz{
+   height: 310px;
+   overflow: hidden;
+}
+.dibumzz{
+    margin-left: 20px;
+    margin-top: 55px;
+}
+/* 发现酷玩 */
+.faxianz{
+    margin-left: 10px;
+    margin-top: 60px;
+    background-color: #ffffff;
+}
+.faxianz h1 a{
+    font-size: 18px;
+    color: red;
+    padding-left: 800px;
+    line-height: 40px;
+}
+.faxianz h1{
+    height: 60px;
+    font-size: 28px;
+    color: rgb(49, 48, 48);
+    margin-left: 25px;
+    font-weight: 500;
+}
+#mfaxianz{
+    margin-left: 120px;
+    background-size: 100%;
+    border-radius: 8px;
+    width: 250px;
+    height: 280px;
+    margin-left: 25px;
+    margin-top: 20px;
+    float: left;
+    border:1px solid #e6e9e9;
+}
+.mfxz img{
+    width: 100%;
+    height: 160px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+.mmfxzz{
+    height: 50px;
+    font-size: 16px;
+    margin-left: 10px;
+    margin-top: 15px;
+   
+}
+.mfxzzz span{
+    color: #666;
+    font-style: 14px;
+}
+.mfxzzz .jiagez{
+    color: red;
+}
+.mfxzzz p{
+   float:right;
+}
+.mfxzzz{
+   margin-top: 20px;
+}
+#faxianxzz{
+   height: 1200px;
+   overflow: hidden;
+}
+
+.cahkanzz p{
+    font-size: 18px;
+    color: #ff564c;
+    text-align: center;
+    display: block;
+    margin: 60px auto;
+}
+.cahkanzz .zhengzaijiazz{
+    display: none;
+}
