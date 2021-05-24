@@ -11,7 +11,7 @@ mtzbqz[3].onclick=function(){
     mtzbqz[3].firstElementChild.href='./daogou.html'
 }
 mtzbqz[4].onclick=function(){
-    mtzbqz[4].firstElementChild.href='./8.html'
+    mtzbqz[4].firstElementChild.href='./7.html'
 }
 mtzbqz[5].onclick=function(){
     mtzbqz[5].firstElementChild.href='./体验报告-最新.html'

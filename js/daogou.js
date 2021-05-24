@@ -1,6 +1,6 @@
 function daohzxz() {
     var ajax_ = new XMLHttpRequest() || new ActiveXObject()
-    ajax_.open('get', 'http://1.15.132.9:3000/guid/new', true)
+    ajax_.open('get', 'http://192.168.31.219:3000/guid/new', true)
     ajax_.send()
     ajax_.onreadystatechange = function () {
         if (ajax_.readyState == 4) {
@@ -20,7 +20,7 @@ function daohzxz() {
 daohzxz()
 function daohzrz() {
     var ajax_ = new XMLHttpRequest() || new ActiveXObject()
-    ajax_.open('get', 'http://1.15.132.9:3000/guid/hot', true)
+    ajax_.open('get', 'http://192.168.31.219:3000/guid/hot', true)
     ajax_.send()
     ajax_.onreadystatechange = function () {
         if (ajax_.readyState == 4) {

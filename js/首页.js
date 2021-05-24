@@ -2,7 +2,7 @@
 // 热门精选
 (function () {
     var ajax_ = new XMLHttpRequest() || new ActiveXObject()
-    ajax_.open('get', 'http://1.15.132.9:3000/useing/master', true)
+    ajax_.open('get', 'http://192.168.31.219:3000/useing/master', true)
     ajax_.send()
     ajax_.onreadystatechange = function () {
         if (ajax_.readyState == 4) {
@@ -23,7 +23,7 @@
 // 报告精选
 (function () {
     var ajax_ = new XMLHttpRequest() || new ActiveXObject()
-    ajax_.open('get', 'http://1.15.132.9:3000/report/hot', true)
+    ajax_.open('get', 'http://192.168.31.219:3000/report/hot', true)
     ajax_.send()
     ajax_.onreadystatechange = function () {
         if (ajax_.readyState == 4) {
@@ -43,7 +43,7 @@
 // 导购精选
 (function () {
     var ajax_ = new XMLHttpRequest() || new ActiveXObject()
-    ajax_.open('get', 'http://1.15.132.9:3000/guid/hot', true)
+    ajax_.open('get', 'http://192.168.31.219:3000/guid/hot', true)
     ajax_.send()
     ajax_.onreadystatechange = function () {
         if (ajax_.readyState == 4) {
