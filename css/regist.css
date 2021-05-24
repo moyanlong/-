@@ -1,0 +1,76 @@
+/* 注册 */
+.regx{
+    margin-left: -600px;
+    padding-bottom:35px;
+    padding-top:25px;
+}
+.regbox{
+    border-radius:8px;
+    box-sizing:border-box;
+    border:1px #d7d7d7 solid;
+}
+.regbox .titlex{
+    /* border-left:2px solid red; */
+    font-weight: normal;
+    position:relative;
+    padding:20px 0 0px 25px;
+    font-size:20px;
+}
+.regbox .titlex:after{
+    content:"";
+    position:absolute;
+    display:block;
+    width:6px;
+    height:25px;
+    left:0;top:24px;
+}
+.formx{
+    width:400px;
+    margin:0px auto;
+}
+.formx p{
+    margin-top:27px;
+}
+.formx input{
+    height:50px;
+    padding-left:10px;
+    width:100%;
+    box-sizing:border-box;
+    font-size:16px;
+    border:1px #eee solid;
+    border-radius:10px;
+}
+.formx input:required:valid{
+    border:1px #eee solid;
+}
+.formx p:nth-child(2),.formx p:nth-child(3){
+    position:relative;
+}
+.formx p:nth-child(2) input,.formx p:nth-child(3) input{
+    width:245px;
+}
+.formx p:nth-child(2) img,.formx p:nth-child(3) .getcodex{
+    position:absolute;bottom:0;right:0;
+}
+.formx p:nth-child(3) .getcodex{
+    display:block;
+    box-sizing:border-box;
+    width:132px;height:50px;
+    line-height:50px;
+    border:1px #a3a3a3 solid;
+    border-radius:10px;
+    font-size:16px;
+    text-align:center;
+}
+.formx button{
+    border:medium none;
+    width:100%;
+    cursor:pointer;
+    height:50px;
+    background-color: crimson;
+    color: white;
+    text-align:center;
+    line-height:50px;
+    font-size:20px;
+    border-radius:10px;
+}

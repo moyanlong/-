@@ -1,0 +1,279 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+span{
+    display: inline-block;
+}
+.clearfix::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+a{
+    text-decoration: none;
+    color:#666;
+}
+a:hover{
+    color:orange ;
+}
+li{
+   list-style: none;
+}
+/* 头部css */
+header{
+    width: 1262px;
+    height: 100px;
+    background-color: rgb(236, 231, 231);
+    border-bottom: 3px solid#d0d0d0;
+}
+header ul li{
+    float: left;
+    padding-left: 50px;
+}
+header ul li img:nth-of-type(1){
+    width: 200px;
+    height: 80px;
+}
+header ul li:nth-of-type(1){
+    margin-left: 150px;
+    margin-top: 10px;
+}
+header ul li:nth-of-type(2) a,
+header ul li:nth-of-type(3) a,
+header ul li:nth-of-type(4) a,
+header ul li:nth-of-type(5) a,
+header ul li:nth-of-type(6) a{
+    width: 100px;
+    height: 100px;
+    line-height: 100px;
+    font-size: 22px;
+    color: #666;
+}
+header ul li:nth-of-type(7) img{
+    width: 25px;
+    height: 25px;
+    margin-top: 30px;
+    margin-left: 160px;
+}
+header ul li:nth-of-type(8) a{
+    line-height: 80px;
+    font-size: 18px;
+    color:#fb9384 ;
+    border: 2px solid #fb9384 ;
+    margin-top: 20px;
+    padding:5px 5px;
+    border-radius: 8px;
+    
+}
+header ul li a:hover{
+    color:orange;
+}
+
+/* nav */
+
+
+nav h1{
+    margin: 20px auto;
+    width: 120px;
+}
+
+
+.p1y,.p2y{
+    display: inline-block ;
+     text-align: center;
+    line-height: 50px;
+    width: 150px;
+    height: 50px;
+    
+    
+}
+.p1y{
+    margin-left: 477px;
+    border-bottom: 4px solid red;
+}
+.p1y a{
+    color: red;
+}
+
+nav .quany li{
+    float: left;
+    margin-left: 100px;
+}
+
+nav .quany{
+    margin-left: 300px;
+    margin-top: 20px;
+}
+
+hr{
+    background-color: #cccc;
+}
+
+/* 主题 */
+.boxy{
+    box-sizing: border-box;
+    width: 1262px;
+    padding-left: 100px;
+    background-color: #F7F7F7;
+  
+}
+#tutuy{
+    overflow: hidden;
+}
+.tuy{
+    display: inline-block;
+    margin: 12px;
+    width: 240px;
+    text-align: center;
+    position: relative;
+    border: 1px solid rgb(236, 231, 231);
+    border-radius: 11px;
+    
+}
+.tuy .miany img{
+    width: 240px;
+    border-radius: 10px;
+}
+
+h4{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.tuy>span{
+    width: 50px;
+    border: 1px solid #CCCCCC;
+    border-radius: 10px;
+    color: #CCCCCC;
+}
+
+.shouy{
+    position: absolute;
+    right: 0;
+    top: 0;
+    font-size: 13px;
+    border-radius: 0px 10px 0px 10px;
+    width: 50px;
+    color: whitesmoke;
+    background-color: crimson;
+}
+
+.sheny{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.sheny>span{
+    color: red;
+}
+
+.shengy{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: red;
+}
+
+.tuy .my,.tuy .ny{
+    color: red;
+    border: 1px solid red;
+}
+.tuy .mny{
+    color: red;
+}
+
+ .aly .shengy{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: #CCCCCC;
+}
+
+ .aly .my, .aly .ny{
+    color: #CCCCCC;
+    border: 1px solid #CCCCCC;
+}
+.aly .mny{
+    color: #CCCCCC;
+}
+
+.aty .shengy{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: #8FC97B;
+}
+
+.aty .my,.aty .ny{
+    color: #8FC97B;
+    border: 1px solid #8FC97B;
+}
+.aty .mny{
+    color: #8FC97B;
+}
+
+
+
+article h3{
+    margin-top: 20px;
+    padding-left: 502px;
+    padding-bottom: 20px;
+     color: #CCCCCC;
+     font-size: 14px;
+     box-sizing: border-box;
+ }
+ 
+
+
+/* 底部css */
+footer{
+    width: 1262px;
+    height: 340px;
+    background-color: #505050;
+    position: relative;
+   
+}
+.di ul{
+    float: left;
+    margin-top: 55px;
+    margin-left: 32px;
+}
+.di ul:nth-of-type(1){
+    margin-left: 170px;
+}
+.di ul li a{
+    font-size: 12px;
+    color: #878683;
+}
+.di ul li a:hover{
+    color: orange;
+}
+.di ul li:nth-of-type(2){
+  margin-top: 20px;
+}
+.di ul li:nth-of-type(1) a{
+   color: white;
+   font-size: 16px;
+  }
+  .di ul li:nth-of-type(1) a:hover{
+      color: orange;
+  }
+  .di ul:nth-of-type(2) li:nth-of-type(4){
+      margin-top: 10px;
+  }
+  .di ul:nth-of-type(4) li a:nth-of-type(2){
+      margin-left: 20px;
+  }
+
+ footer p{
+      font-size: 14px;
+      color: #878683 ;
+      text-align: center;
+      margin-top: 70px;
+  }
+  .top1z{
+    position: absolute;
+    top: 265px;
+    right: 30px;    
+}
+.top1z img{
+    padding-top: 10px;
+    padding-left: 5px;
+}

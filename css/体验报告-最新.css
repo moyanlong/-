@@ -1,0 +1,148 @@
+/* 顶部体验报告 */
+
+.play-top h1{
+    text-align:center;
+    padding:34px 0 30px;
+    font-size:40px;
+    font-weight: normal;
+}
+.navx{
+    text-align:center;
+    line-height:1.7;
+    font-size:0;
+}
+.navx a{display:inline-block;
+    padding-bottom:12px;
+    width:165px;
+    color: black;
+    font-size:18px;
+}
+.navx a.on{
+    border-bottom:4px #fe5431 solid;
+    padding-bottom:8px;
+}
+/* 最新图片部分 */
+.right{
+    float: right;
+}
+.left{
+    float: left;
+}
+.reportx{
+    /* width: 100%; */
+    height: 2320px;
+    
+}
+.icon span{
+    display:inline-block;
+    vertical-align:middle;
+    padding-left:14px;
+    margin-left:3px;
+}
+.listInfo{
+    width:700px;
+}
+.listInfo li{
+    border-radius:6px;
+    border:1px solid #e6e9e9;
+    margin-bottom:13px;
+    position:relative;
+    overflow:hidden;
+}
+.listInfo li a{
+    display:block;
+}
+.listInfo li .info{
+    position:absolute;
+    left:0;bottom:0;
+    width:100%;
+    background-color:white;
+    opacity: .8;
+    box-sizing:border-box;
+    padding:10px 22px;
+}
+.listInfo li img{
+    border-radius:6px;
+}
+.listInfo li .title{
+    font-size:18px;
+    padding:9px 0 12px;
+    font-weight:normal;
+}
+.listInfo li .btm{
+    font-size:13px;
+    padding:16px 0 11px;
+}
+.listInfo .click-look{
+    text-align:center;
+    height:48px;
+    line-height:48px;
+    font-size:14px;
+}
+.listInfo .userInfo span{
+    display:inline-block;
+    vertical-align:middle;
+    margin-right:5px;
+    margin-bottom: 10px;
+}
+.listInfo .userInfo .avt{
+    width:20px;
+    height:20px;
+    border-radius:50%;
+}
+.listInfo .btm .icon{
+    color:#a3a3a3;
+   
+}
+.lastx a{
+    display: inline-block;
+    width: 100%;
+    height: 30px;
+    border: 1px solid rgb(179, 173, 173);
+    border-radius: 5px;
+    color: rgb(63, 62, 63);
+    line-height: 30px;
+    text-align: center;
+}
+/* 右侧侧边栏 */
+.listR{
+    width: 280px;
+    height: 500px;
+    
+}
+.listR h2{
+    font-weight:normal;
+    border-left: 4px solid red;
+}
+.listR .title{
+    position:relative;
+    font-size:18px;
+    height:25px;
+    line-height:25px;
+    padding-left:30px;
+}
+.listR .title:after{
+    position:absolute;
+    content:"";
+    display:block;
+    width:6px;
+    height:25px;
+    left:0;
+    top:0;
+}
+.listR .imgBox{
+    margin-top:20px;
+}
+.listR .info{
+    margin:10px 0 20px;
+}
+.listR .info h5{
+    font-size:16px;
+    padding:5px 0;
+}
+.listR .info .text{
+    font-size:14px;
+}
+.listR .guanzhu{
+    padding-top:40px;
+}
