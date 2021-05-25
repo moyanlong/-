@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>导购清单</title>
     <link rel="stylesheet" href="./css/头部底部.css">
-    <link rel="stylesheet" href="./css/daogou.css">
+    <link rel="stylesheet" href="./css/shiyong.css">
 </head>
 
 <body>
@@ -28,37 +28,43 @@
     </header>
     <!-- 导航 -->
     <nav>
-        <div class="daogouzz">
-            <h1>导购清单</h1>
-            <ul>
-                <li class="dgkwmzz">最新</li>
-                <li>最热</li>
+        <div class="daogouzz clearfix">
+            <h1>免费试用</h1>
+            <ul class="clearfix">
+                <li class="dgkwmzz">大众试用</li>
+                <li>体验师专享</li>
             </ul>
         </div>
     </nav>
     <!-- 内容 -->
     <article>
-        <div class="dao clearfix">
-            <div class="daogaozz">
-                <div id="mdggjxzz">
-                    <!-- <ul id="dgjingxzz">
-                    <li class="mdgjingxzz"><a href=""><img src="./img/hot9.jpg" alt=""></a> </li>
-                    <li class="mzdgjingxzz"><a href="">空气净化器里面学问多得惊呆你，你选对了吗？</a> </li>
-                    <li class="mddgjingxzz">
-                        <a href=""><span><img src="./img/zan.png" alt=""> 3</span></a>
-                        <a href=""><span><img src="./img/reply.png" alt=""> 3</span></a>
-                    </li>
-                </ul> -->
+        <div class="syfly clearfix">
+            <ul class="clearfix">
+                <li class="dgkwmzz">全部</li>
+                <li>申请中</li>
+                <li>试用中</li>
+                <li>已结束</li>
+            </ul>
+        </div>
+        <div class="dazy clearfix">
+            <div class="dzyz">
+                <div id="dzyz">
+                      <!-- <ul id="listzz">
+                <li class="immgzz"><img src="./img/hot9.jpg" alt=""><p class="shoufaz">首发</p></li>
+                <li class="jianjiez"><a href="">巴慕达 The Toaster 烤面包机</a></li>
+                <li class="jiagetaiz"><a href=""><span>2032</span><span>20台</span></a></li>
+                <li class="shenqingz"><a href=""><span>1392</span></a><a href="">申请</a> </li>
+                <li class="shengyuz"><a href="">剩余时间2天</a></li>
+            </ul> -->
                 </div>
             </div>
         </div>
-            <div class="cahkanzz">
-                <p><img src="./img/more.png" alt=""> 点击查看更多</p>
-                <p class="zhengzaijiazz"><img src="./img/loading-icon.gif" alt="">正在加载</p>
-
-            </div>
-        
     </article>
+    <div class="cahkanzz">
+        <p><img src="./img/more.png" alt=""> 点击查看更多</p>
+        <p class="zhengzaijiazz"><img src="./img/loading-icon.gif" alt="">正在加载</p>
+
+    </div>
     <aside>
         <div id="youdaohangkuozhan">
             <ul>
@@ -69,6 +75,7 @@
             </ul>
         </div>
     </aside>
+     
     <!-- 底部 -->
     <footer>
         <div class="di clearfix">
@@ -118,18 +125,17 @@
     </footer>
 </body>
 <script src="./js/toubutiaozhuan.js"></script>
-<script src="./js/daogou.js"></script>
+<script src="./js/shiyong.js"></script>
 <script src="./js/doT.min.js"></script>
-<script id="mdggjxz" type="text/x-dot-template">
+<script id="syzzy" type="text/x-dot-template">
 {{~it:a:index}}
-<ul id="dgjingxzz">
-    <li class="mdgjingxzz"><a href=""><img src="{{=a.img}}" alt=""></a> </li>
-    <li class="mzdgjingxzz"><a href="">{{=a.text}}</a> </li>
-    <li class="mgddjingxzz">
-        <a href=""><span><img src="./img/reply.png" alt=""> {{=a.words}}</span></a>
-     <a href=""><span><img src="./img/zan.png" alt=""> {{=a.like}}</span></a>
-       
-    </li>
+<ul  class="clearfix"  id="listzz">
+    <li class="immgzz"><a href=""><img src="{{=a.img}}" alt=""></a></li>
+    <li class="shoufaz">{{=a.info_ty}}</li>
+    <li class="jianjiez"><a href="">{{=a.text}}</a></li>
+    <li class="jiagetaiz"><a href="">{{=a.totalnum}}</a> <a href="">{{=a.num}}台</a></li>
+    <li class="shenqingz"><a href=""><span>{{=a.apply}}</span></a><a href="">申请</a> </li>
+    <li class="shengyuz"><a href="">剩余时间2天</a></li>
 </ul>
 {{~}}
 </script>

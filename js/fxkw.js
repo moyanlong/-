@@ -40,7 +40,7 @@ function mfsxkwz() {
     var mfxkplayz = document.getElementsByClassName('faxianzz')[0].lastElementChild.children
     var shplz=document.getElementById('pinleiz');
     var shplzz=document.getElementById('kuxuanranmz');
-    console.log(shplz);
+ 
     for (var l = 0; l < mfxkplayz.length; l++) {
         mfxkplayz[0].onclick = function () {
             for(var s=0;s<mfxkplayz.length;s++){

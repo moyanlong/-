@@ -1,0 +1,138 @@
+nav{
+    margin: 0 auto;
+}
+span{
+    display:inline-block;
+}
+.daogouzz{
+    width: 1000px;
+    margin: 0 auto;
+}
+.daogouzz h1{
+    font-size: 40px;
+    margin-top: 40px;
+    margin-left: 423px;
+}
+.daogouzz ul{
+    height: 20px;
+    margin-top: 20px;
+    margin-left: 180px;
+}
+.daogouzz ul  li{
+    width: 150px;
+    margin-left: 120px;
+    margin-top: 30px;
+    font-size: 20px;
+    text-align: center;
+    float: left;
+}
+
+.dgkwmzz{
+    color: orange;
+    border-bottom: 4px solid orange;
+}
+
+article{
+    width: 1200px;
+    margin: 80px auto;
+    
+    background-color: #ffffff;
+}
+.cahkanzz p{
+    font-size: 18px;
+    color: #ff564c;
+    text-align: center;
+    display: block;
+    margin: 60px auto;
+}
+.cahkanzz .zhengzaijiazz{
+    display: none;
+}
+.listR{
+    width: 280px;
+    height: 500px;
+    position: absolute;
+    top: 300px;
+    right: 180px;
+    
+}
+.listR h2{
+    font-weight:normal;
+    border-left: 4px solid red;
+}
+.listR .title{
+    position:relative;
+    font-size:18px;
+    height:25px;
+    line-height:25px;
+    padding-left:30px;
+}
+.listR .title:after{
+    position:absolute;
+    content:"";
+    display:block;
+    width:6px;
+    height:25px;
+    left:0;
+    top:0;
+}
+.listR .imgBox{
+    margin-top:20px;
+}
+.listR .info{
+    margin:10px 0 20px;
+}
+.listR .info h5{
+    font-size:16px;
+    padding:5px 0;
+}
+.listR .info .text{
+    font-size:14px;
+}
+.listR .guanzhu{
+    padding-top:40px;
+}
+.imgzx img{
+  width: 840px;
+  height: 400px;
+  border-radius: 20px;
+}
+#myDiv1{
+    width: 840px;
+    height: 500px;
+}
+.title a{
+    font-size: 20px;
+    color: black;
+}
+.title{
+    margin: 10px 20px;
+}
+.userInfo{
+    font-size: 17px;
+    margin-left: 20px;
+    float: left;
+}
+.name{
+    color: red;
+    margin-left: 8px;
+}
+.time{
+    margin-left: 15px;
+    color: #999;
+}
+.mzicon{
+    float: right;
+    margin-right: 25px;
+}
+.lastx {
+    font-size: 18px;
+    width: 840px;
+    height: 25px;  
+    text-align: center;
+    margin-bottom: 20px;
+}
+.lastx a{
+    width: 200px;
+   
+}

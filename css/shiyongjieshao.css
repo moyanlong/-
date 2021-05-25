@@ -1,0 +1,135 @@
+
+nav p{
+  margin-left: 200px;
+  font-size: 16px;
+  margin-bottom: 10px;
+  margin-top: 20px;
+}
+
+/* 内容 */
+.boxy{
+    box-sizing: border-box;
+    position: relative;
+    width: 500px;
+    margin-left: 400px;
+    background-color:#FFFFFF;
+    padding: 20px;
+}
+.suy,.temay{
+    display: inline-block;
+    font-size: 13px;
+}
+
+.boxy .suy img{
+    width: 14px;
+}
+
+h1{
+
+    margin: 10px;
+}
+.suy{
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+.temay{
+    position: absolute;
+     top: 75px;
+    right: 23px;
+}
+
+
+.boxy img{
+     width: 450px;
+     
+}
+
+.boxy h4{
+    text-align: center;
+}
+
+.boxy p{
+    margin: 15px;
+    font-size: 13px;
+}
+
+#lamy{
+    margin: 0px;
+}
+
+article,aside{
+    background-color: whitesmoke;
+}
+
+/* 右边栏 */
+.biany,.biany2{
+    width: 150px;
+    height: 120px;
+    border: 2px solid #cccc;
+    background-color: #FFFFFF;
+    position: absolute;
+    top: 145px;
+    border-radius: 8px;
+}
+.biany{
+    right: 300px;
+}
+/* .biany:hover{   
+ color: red;
+} */
+.fxmy{
+    display: none;
+    position: absolute;
+    top: 150px;
+    right: 40px;
+   
+}
+.fxmy li img{
+    width: 40px;
+    height: 40px;
+    border: 2px solid #ffffff;
+    border-radius: 8px;
+}
+.fxmy li{
+    margin-top: 20px;
+    
+}
+.biany2{
+    right: 100px;
+}
+aside{
+    box-sizing: border-box;
+    padding-top : 35px;
+    text-align: center;
+  
+}
+
+.yiny{
+    float: left;
+    margin-top: -51px;
+    margin-left: 61px;
+    display: none;
+}
+.xiy{
+    color: tomato;
+    float: left;
+    margin-top: -21px;
+    margin-left: 46px;
+     display: none;
+}
+
+.feny1{
+      float: left;
+    margin-top: -47px;
+    margin-left: 64px;
+    display: none;
+}
+
+.feny{
+      color: tomato;
+    float: left;
+    margin-top: -21px;
+    margin-left: 58px;
+    display: none;
+}
+

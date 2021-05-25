@@ -1,122 +1,208 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>注册极果</title>
-    <link rel="stylesheet" href="./css/头部底部1.css">
-    <link rel="stylesheet" href="./css/regist.css">
+    <title>导购清单</title>
+    <link rel="stylesheet" href="./css/头部底部.css">
+    <style>
+    article{
+        width: 1000px;
+        margin: 20px auto;
+    }
+ .regx{
+    height: 800px;
+    padding-top:25px;
+}
+.regbox{
+    height: 700px;
+    border-radius:8px;
+    box-sizing:border-box;
+    border:1px #d7d7d7 solid;
+}
+.regbox .titlex{
+    border-left:4px solid red;
+    font-size:20px;
+    margin-top: 20px;
+    padding-left: 10px;
+}
+.regbox .titlex:after{
+    content:"";
+    position:absolute;
+    display:block;
+    width:6px;
+    height:25px;
+    left:0;top:24px;
+}
+.formx{
+    width:400px;
+    margin:0px auto;
+}
+.formx p{
+    margin-top:27px;
+}
+.formx input{
+    height:50px;
+    padding-left:10px;
+    width:100%;
+    box-sizing:border-box;
+    font-size:16px;
+    border:1px #eee solid;
+    border-radius:10px;
+}
+.formx input:required:valid{
+    border:1px #eee solid;
+}
+.formx p:nth-child(2),.formx p:nth-child(3){
+    position:relative;
+}
+.formx p:nth-child(2) input,.formx p:nth-child(3) input{
+    width:245px;
+}
+.formx p:nth-child(2) img,.formx p:nth-child(3) .getcodex{
+    position:absolute;bottom:0;right:0;
+}
+.formx p:nth-child(3) .getcodex{
+    display:block;
+    box-sizing:border-box;
+    width:132px;height:50px;
+    line-height:50px;
+    border:1px #a3a3a3 solid;
+    border-radius:10px;
+    font-size:16px;
+    text-align:center;
+}
+.formx button{
+    border:medium none;
+    width:100%;
+    cursor:pointer;
+    height:50px;
+    background-color: crimson;
+    color: white;
+    text-align:center;
+    line-height:50px;
+    font-size:20px;
+    border-radius:10px;
+}
+    </style>
 </head>
-<script src="./js/toubutiaozhuan.js"></script>
+
 <body>
-    <header class="wx">
-        <div class="leftx"><img src="./img/logonew.png" alt=""></div>
-        <ul class="centerx">
-			<li><a href="./index.html">首页</a></li>
-			<li><a href="./faxiankuwan.html">酷玩</a></li>
-			<li><a href="./daogou.html">导购</a></li>
-			<li><a href="./8.html">试用</a></li>
-			<li><a href="./体验报告-最新.html">报告</a></li>
-        </ul>
-        <div class="rightx">
-            <img src="./img/search.png" alt="" class="searchx">
-            <a href="#" class="loginx">注册</a>
+    <!-- 头部 -->
+    <header id="dingbu">
+        <div>
+            <ul>
+                <li><a href=""><img src="./img/logonew.png" alt=""></a></li>
+                <li><a href="">首页</a></li>
+                <li><a href="">酷玩</a></li>
+                <li><a href="">导购</a></li>
+                <li><a href="">试用</a></li>
+                <li><a href="">报告</a></li>
+                <li><img src="./img/search.png" alt=""></li>
+                <li><a href=""> 注册</a></li>
+            </ul>
         </div>
     </header>
-    <!-- 注册部分 -->
-    <section class="box regx">
-        <div class="wx regbox">
-            <h2 class="titlex">注册极果</h2>
-            <form class="formx" name="my1x" onsubmit="returnx(this)">
-                <p>
-                    <input type="text" placeholder="请输入登陆手机号" pattern="^1[34578][0-9]{9}$" required name="telx">
-                </p>
-                <p>
-                    <input type="text" placeholder="请输入图片校验码" required name="imgx">
-                    <img src="./img/imgCode.jpg" width="133" height='35'>
-                </p>
-                <p>
-					<input type="text" placeholder="请输入4位数字验证码" pattern="^\d{4}$" required="required" name="codex"/>
-					<a href="javascript:void(0)" class="getcodex">获取验证码</a>
-				</p>
-                <p><input type="text" placeholder="请输入用户名" required="required"/></p>
-
-				<p><input type="password" placeholder="请输入新密码" required="required" name="psw1"/></p>
-
-				<p><input type="password" placeholder="确定新密码" required="required" name="psw2"/></p>
-				
-				<p><button id="submitx">立即注册</button></p>
-            </form>
+    <!-- 导航 -->
+    <article>
+        <section class="box regx">
+            <div class="wx regbox">
+                <h2 class="titlex">注册极果</h2>
+                <form class="formx" name="my1x" onsubmit="returnx(this)">
+                    <p>
+                        <input type="text" placeholder="请输入登陆手机号" pattern="^1[34578][0-9]{9}$" required name="telx">
+                    </p>
+                    <p>
+                        <input type="text" placeholder="请输入图片校验码" required name="imgx">
+                        <img src="./img/imgCode.jpg" width="133" height='35'>
+                    </p>
+                    <p>
+                        <input type="text" placeholder="请输入4位数字验证码" pattern="^\d{4}$" required="required" name="codex"/>
+                        <a href="javascript:void(0)" class="getcodex">获取验证码</a>
+                    </p>
+                    <p><input type="text" placeholder="请输入用户名" required="required"/></p>
+    
+                    <p><input type="password" placeholder="请输入新密码" required="required" name="psw1"/></p>
+    
+                    <p><input type="password" placeholder="确定新密码" required="required" name="psw2"/></p>
+                    
+                    <p><button id="submitx">立即注册</button></p>
+                </form>
+            </div>
+        </section>
+    </article>
+    <footer>
+        <div class="di clearfix">
+            <ul>
+                <li><img src="./img/code.png" alt=""></li>
+            </ul>
+            <ul>
+                <li><a href=""><img src="./img/logoImg.jpg" alt=""></a></li>
+                <li><a href="">全球酷玩试用导购平台</a></li>
+                <li><a href="">酷·新奇好玩品质</a></li>
+                <li><a href="">微信添加“JguoJguo"</a></li>
+                <li><a href="">获取我们的服务。</a></li>
+            </ul>
+            <ul>
+                <li><a href="">免费试用</a></li>
+                <li><a href="">试用流程</a></li>
+                <li><a href="">如何提高成功率</a></li>
+            </ul>
+            <ul>
+                <li><a href="">友情链接</a></li>
+                <li><a href="">智东西&nbsp; &nbsp;&nbsp;</a><a href="">WEIBUSI</a></li>
+                <li><a href="">搜抓IT &nbsp;&nbsp;&nbsp;</a><a href="">腾讯科技</a></li>
+                <li><a href="">搜狐数码</a><a href="">凤凰科技</a></li>
+                <li><a href="">泡泡网&nbsp;&nbsp;&nbsp;</a><a href="">3W咖啡</a></li>
+                <li><a href="">ZUK社区</a><a href="">亿觅emie</a></li>
+                <li><a href="">极客公园</a><a href="">易迅易启玩</a></li>
+                <li><a href="">果库</a></li>
+            </ul>
+            <ul>
+                <li><a href="">购买攻略</a></li>
+                <li><a href="">美亚海淘教程</a></li>
+                <li><a href="">日亚海淘教程</a></li>
+                <li><a href="">海淘转运攻略</a></li>
+                <li><a href="">kickstarter 众筹购买攻略</a></li>
+                <li><a href="">indiegogo众筹购买攻略</a></li>
+            </ul>
+            <ul>
+                <li><a href="">厂商合作</a></li>
+                <li><a href="">关于极果</a></li>
+                <li><a href="">联系我们</a></li>
+                <li><a href="">CEO邮箱:CEO@jiguo.com</a></li>
+                <li><a href="">商务合作:BD@jiguo.com</a></li>
+            </ul>
         </div>
-    </section>
-   
-    <!-- 底部 -->
-    <footer class="footx">
-		<section class="wx">
-			<div class="fix">
-				<dl><img src="img/code.png" width="160" height="160"/></dl>
-				<dl>
-					<dt><img src="img/logoImg.jpg"/></dt>
-					<dd>全球酷玩试用导购平台<br>酷·新奇·好玩·品质</dd>
-					<dd>微信添加“JguoJguo” <br>获取我们的服务。</dd>
-				</dl>
-				<dl>
-					<dt>免费试用</dt>
-					<dd><a href="./免费试用.html">试用流程</a></dd>
-					<dd><a href="">如何提高成功率</a></dd>
-				</dl>
-				<dl>
-					<dt>友情链接</dt>
-					<dd><a href="">智东西</a><a href="">WEIBUSI</a></dd>
-					<dd><a href="">搜狐IT</a><a href="">腾讯科技</a></dd>
-					<dd><a href="">搜狐数码</a><a href="">凤凰科技</a></dd>
-					<dd><a href="">凤凰数码</a><a href="">PConline</a></dd>
-					<dd><a href="">泡泡网</a><a href="">3W咖啡</a></dd>
-					<dd><a href="">ZUK社区</a><a href="">亿觅emie</a></dd>
-					<dd><a href="">极客公园</a><a href="">易迅易启玩</a></dd>
-					<dd><a href="">果库</a></dd>
-				</dl>
-				<dl>
-					<dt>购买攻略</dt>
-					<dd><a href="#">美亚海淘教程</a></dd>
-					<dd><a href="#">日亚海淘教程</a></dd>
-					<dd><a href="#">海淘转运攻略</a></dd>
-					<dd><a href="#">kickstarter 众筹购买攻略</a></dd>
-					<dd><a href="#">indiegogo 众筹购买攻略</a></dd>
-				</dl>
-				<dl>
-					<dt>厂商合作</dt>
-					<dd><a href="./商务合作.html">关于极果</a></dd>
-					<dd><a href="./商务合作.html">联系我们</a></dd>
-					<dd><a href="./商务合作.html">商务合作：BD@jiguo.com</a></dd>
-					<dd><a href="./商务合作.html">CEO邮箱：CEO@jiguo.com</a></dd>
-				</dl>
-			</div>
-			<p class="copyx">© 2016 极果版权所有</p>
-		</section>
-	</footer>
-	<script src="./js/jquery.min.js"></script>
-    <script>
-        $(function(){
-		/**获取验证码 倒计时**/
-		var wait = 60;
-		function yzm(){
-			if(wait==0){
-				$(".getcodex").text("获取验证码");
-				wait = 60;
-			}else{
-				wait--;
-				$(".getcodex").text(wait+"秒后重新发送");
-				setTimeout(function(){yzm();},1000);
-			}
-		}
-		$(".getcodex").click(function(){
-			yzm();
-		});
-	});
-
-        
-    </script>
+        <p>&copy;2016极里版权所有</p>
+        <div class="top1z"> <a href="#dingbu" class="top"><img src="./img/back.png" alt=""></a></div>
+    </footer>
 </body>
+<script src="./js/toubutiaozhuan.js"></script>
+<script src="./js/jquery.min.js"></script>
+<script>
+    $(function(){
+    /**获取验证码 倒计时**/
+    var wait = 60;
+    function yzm(){
+        if(wait==0){
+            $(".getcodex").text("获取验证码");
+            wait = 60;
+        }else{
+            wait--;
+            $(".getcodex").text(wait+"秒后重新发送");
+            setTimeout(function(){yzm();},1000);
+        }
+    }
+    $(".getcodex").click(function(){
+        yzm();
+    });
+});
+
+    
+</script>
+
+
 </html>

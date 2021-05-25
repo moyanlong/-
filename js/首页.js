@@ -8,7 +8,6 @@
         if (ajax_.readyState == 4) {
             if (ajax_.status == 200) {
                 var nbhzz = JSON.parse(ajax_.responseText);
-  console.log(nbhzz);
                 var njuzz = doT.template(document.getElementById('fhgffzz').innerHTML);
 
                 document.getElementById('liszz').innerHTML = njuzz(nbhzz);
@@ -98,9 +97,9 @@ var xzz = 0;
 var timzz = null;
 var tim1zz = null;
 var img1zz = document.getElementById('liszz').children;
-console.log( img1zz );
 var innerzz = document.getElementsByClassName('mlistzzz')[0];
 function gund() {
+    clearInterval(timzz)
     timzz = setInterval(function () {
         xzz++;
         if (xzz >= img1zz.length) {
@@ -137,7 +136,6 @@ function gogozz(){
 // 专享
 setTimeout(function(){
    var zhxz=document.getElementsByClassName('shoufaz')
-   console.log(zhxz[0].innerHTML);
     for(var sf=0;sf<zhxz.length;sf++){
         if(zhxz[sf].innerHTML=="体验师转享"){
             zhxz[sf].style.backgroundColor ='#fbf2c9'
@@ -169,7 +167,7 @@ sqzz .onclick=function(){
 var nuj=setInterval(function(){
     var new_div=document.getElementsByClassName('shijianz')[0];
     var date=new Date();
-    var date1=new Date(2021,4,26,);
+    var date1=new Date(2021,4,30,);
     var num1=date1-date;
     var day1=Math.floor(num1/1000/60/60/24) ;
     var shi=Math.floor(num1/1000/60/60%24);
@@ -195,3 +193,13 @@ ckgdz[1].onclick=function(){
 ckgdz[2].onclick=function(){
     ckgdz[2].href='./faxiankuwan.html'
 }
+setTimeout(function () {
+    var lixy = document.getElementById('mdgjxzz').children;
+     console.log(lixy);
+    for (var lix = 0; lix < lixy.length; lix++) {
+        var lixyz = lixy[lix].children
+        console.log(lixyz);
+        lixyz[0].firstElementChild.href = './shiyongjieshao.html'
+
+    }
+}, 1000)
